@@ -42,3 +42,15 @@ If we want to exit the script with our own status then we can use `exit` command
 exit 0 # Success 
 exit 1 # Failure with status 1 
 ```
+
+
+
+# Four Pillars of any scripting 
+
+1. Variables
+2. Functions
+3. Conditions
+4. Loops
+
+
+
