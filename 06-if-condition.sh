@@ -19,6 +19,8 @@
 #  commands-a
 #elif [ expression-b ]; then
 #  commands-b
+#elif [ expression-c ]; then
+#  commands-c
 #else
 #  commands
 #fi

@@ -35,3 +35,10 @@ Number range from 0-255
 These failures depends up on the command we are using.
 
 We will get the status from a variable called as ?, To access this value we give $? 
+
+If we want to exit the script with our own status then we can use `exit` command. 
+
+```shell 
+exit 0 # Success 
+exit 1 # Failure with status 1 
+```
