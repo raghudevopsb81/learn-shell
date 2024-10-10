@@ -24,3 +24,14 @@ Note: if we dont give `i` option then it will make changes on the output not on 
    13  08/10/24 03:26:51 sed -e 's/root/ADMIN/2' /etc/passwd
 ```
 
+## Exit Status
+
+Status of the command, It returns a number determining the status.
+Number range from 0-255 
+
+0- Universal Success 
+
+1-255 - Partial Success / Partial Failure / Failure
+These failures depends up on the command we are using.
+
+We will get the status from a variable called as ?, To access this value we give $? 
