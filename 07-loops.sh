@@ -8,3 +8,9 @@ for fruit in apple banana orange; do
   #
 done
 
+# while loop
+
+x=10
+while [ $x -gt 0 ]; do
+  echo Value x - $x
+done
