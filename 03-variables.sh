@@ -24,8 +24,41 @@ echo AWS Trainer - $trainer
 # cp $src $dest
 
 # Command substitution
-#variable=$(command)
+# variable=$(command)
 # Above command output will go to variable
 
 date=$(date)
+
+# Arithmetic substitution
+# var=$((expression))
+x=$((2+3))
+echo $x
+# Often to deal with expressions in better we use a cli tool called as bc rather than this, this substitution will help you with basic operations.
+
+
+# Scenarios.
+# 1. We can overwrite the variable
+# x=10
+# x=20
+# second time x will get replaced with out any warnings or errors.
+
+# Assume example.sh is havign the following code.
+# echo x - $x
+
+# 2. Variables declared in CLI cannot be accessed when we execute the script
+# x=20
+# bash example.sh
+# some times we need to send the x value to the script and it can be done in three ways.
+
+# a. Special Variables
+# bash example.sh $x
+
+# b. before to script
+# x=20 bash example.sh
+
+# c. Mark variable as environment variable
+# export x=20
+# bash example.sh
+
+
 
