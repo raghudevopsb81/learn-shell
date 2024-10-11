@@ -31,7 +31,7 @@ sample1 "Hello World" abc 123
 
 sample2() {
   echo Hello World
-  return 0
+  return 10
   echo Hello Universe
 }
 
