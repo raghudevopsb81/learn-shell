@@ -53,4 +53,12 @@ exit 1 # Failure with status 1
 4. Loops
 
 
+# Log redirection 
+# > - output redirect 
+# 1> - output 2> error 
+# &> output & error 
+# >> to append 
+# We can use a special file called as /dev/null in case if we dont want any output to store on file and neither on screen then we redirect to this file.
+# &>/dev/null 
+
 
